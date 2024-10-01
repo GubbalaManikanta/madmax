@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <img src="./images/LOGO.png" alt="logo of konaseema kravings" id="logo">
+    
+    <h1 id="text1">WELCOME</h1>
+    <h2 id="text2">"Konaseema Kravings – Authentic Pickles, Crafted with Tradition and Passion."</h2>
+
+    <!-- Menu Button -->
+    <div id="menu-button" class="menu-button" onclick="toggleMenu()">
+        &#9776; <!-- Hamburger icon -->
+    </div>
+
+    <!-- Menu (hidden by default) -->
+    <div id="menu" class="menu hidden">
+        <ul>
+            <li class="bar"><a href="./menu.html">PICKLES</a></li>
+            <br>
+            <li class="bar"><a href="./snacks.html">SNACKS</a></li>
+            <br>
+            <li class="bar"><a href="./about.html">ABOUT US</a></li>
+            <br>
+            <li class="bar"><a href="./contact.html">CONTACT</a></li>
+        </ul>
+    </div>
+
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById('menu');
+            menu.classList.toggle('visible'); // Toggle the 'visible' class
+        }
+    </script>
+</body>
+</html>

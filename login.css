@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('./images/LOGO.png') no-repeat center center;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.box {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 30px;
+    border-radius: 10px;
+    width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 18px;
+    color: red;
+    cursor: pointer;
+}
+
+.content h2 {
+    margin-bottom: 20px;
+    color: red;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+input[type="text"], input[type="tel"] {
+    width: 80%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid red;
+    border-radius: 5px;
+    text-align: center;
+}
+
+button {
+    margin-top: 10px;
+    padding: 5px 15px;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.otp-section {
+    margin-top: 15px;
+}
+
+#timer {
+    margin-top: 10px;
+    color: red;
+}

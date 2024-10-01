@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+}
+
+.about-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Slight transparency for readability */
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #ff6347; /* Tomato color to match the pickle theme */
+    margin-bottom: 20px;
+}
+
+p {
+    font-family: "Dancing Script", cursive;
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.about-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Founder Section */
+.founder-section {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.founder-photo {
+    max-width: 150px;
+    height: auto;
+    border-radius: 40%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.founder-name {
+    font-family: "Abril Fatface", serif;
+    font-size: 1.5em;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #555;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('./images/LOGO.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+}
+
+.about-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Slight transparency for readability */
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #ff6347; /* Tomato color to match the pickle theme */
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.about-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Founder Section */
+.founder-section {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.founder-photo {
+    max-width: 150px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.founder-name {
+    font-size: 1.5em;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #555;
+}
